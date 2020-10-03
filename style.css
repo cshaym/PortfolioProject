@@ -1,0 +1,285 @@
+/*--begin reset code-- 
+body, footer {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+}
+
+body {
+    line-height:1;
+}
+
+footer, header, nav, section {
+    display:block;
+}
+--end reset code--*/
+
+/* ----------------------------------------------------------------------------MY CONFIRMED CODE--------------------------------------------------------------------- */
+
+/* footer styling reset. move some footer features down to the footer code section? */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+#container { /* not official name */
+    min-height: 100%;
+    /*background-image: ;*/
+}
+
+/* Background - body, main */
+body {
+    background: url(assets/brickwall.webp) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Scrolling */
+
+#main {   
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+/* Section */
+section {
+    background-color: rgb(97, 182, 178);
+}
+
+/* Fonts */
+
+h1 {
+    font-family: 'Secular One', sans-serif;          /*'Zilla Slab Highlight', cursive;*/
+    font-size: 80px;
+    word-spacing: 15px;
+    /*text-indent: 50px;*/
+    margin-left: 83px;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    /*text-indent: 55px;*/
+    margin-left: 95px;
+}
+
+#contact_me_text {
+    font-family: 'Secular One', sans-serif;          
+    font-size: 60px;
+    word-spacing: 15px;
+    margin-left: 120px;
+}
+
+h3 {
+    font-family: 'Secular One', sans-serif;
+    word-spacing: 5px;
+    font-size: 30px;
+}
+
+.about_p {
+    text-indent: 60px;
+    font-size: 20px;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(97, 3, 97);
+}
+
+.s {
+    text-decoration: none;
+}
+
+/* Navigations */
+.top_nav {
+    background-color: rgb(34, 31, 31);
+    width: 100%;
+    height: 40px;
+}
+
+.nav_ul {
+    margin-right: 190px;
+}
+
+ul { /*(move around entire navigation in website)*/ 
+    float: right;
+}
+
+ul li { /*(move around individual links in the list)*/ 
+    list-style: none;
+    display: inline-block;
+    line-height: 40px;
+}
+
+ul li a { /*(style text inside link)*/ 
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px;
+    display: block;
+    color: lightseagreen;
+}
+ul li a:hover {
+    color: white;
+}
+
+/* Header */
+.header_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+/* Wrapper */
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    /*background-color: peru;*/
+}
+
+/* Pictures */
+.me {
+    width: 300px;
+    height: 200px;
+    border-radius: 100%;
+    float: right;
+    margin-right: 130px;
+    /*border: 15px solid rgb(34, 31, 31);*/
+}
+
+.project_container {
+    max-width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+
+.pic_box {
+    margin: 5px;
+    float: left;
+    width: 400px;
+}
+
+.img_style {
+    width: 400px;          
+    height: 300px;
+}
+
+/*#contact_back {
+    width: 100%;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+
+/* Section */
+
+section {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+/* Form */
+.contact_div {
+    width: 100%;
+    padding: 80px 0px;
+    background: url(assets/graf.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+form {
+    margin-left: 190px;
+}
+
+input {
+    height: 30px;
+}
+
+.contact_div form input {
+    width: 40%;
+    height: 30px;
+    margin-bottom: 4px;
+    padding: 0px 0.5%;
+    border: 1px solid orange;
+}
+
+textarea {
+    resize: both;
+    height: 400px;          
+    width: 75%;               /* 950px */
+    padding: 0px 0.5%;
+    margin-bottom: 4px;
+    /* clear: both */
+    resize: none;
+}
+
+input, textarea {
+    outline: none;
+    border: 1px solid rgb(7, 170, 235);
+    font-size: 18px;
+    font-family: Lato;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 8px rgba(5, 118, 163, 0.5);
+    /*outline: red;*/
+    border: 1px solid rgb(7, 170, 235);
+}
+
+::placeholder {
+    color: rgb(76, 102, 173);
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: rgb(76, 102, 173);
+}
+
+::-ms-input-placeholder {
+    color: rgb(76, 102, 173);
+    opacity: 1;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(243, 186, 28);
+    font-size: 18px;
+    font-family: Lato;
+}
+
+button:hover {
+    background-color: rgba(137, 12, 168, 0.897);
+}
+
+/* Footer */
+.footer { /* edit pixel size? */
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    /*background: url(assets/hearts.jpg);*/
+    background-color: rgb(34, 31, 31);
+    clear: both;
+}
+
+.footer_item {
+    font-size: 16px;
+    font-family: Lato;
+}
+
+#footer_text {
+    text-align: center !important;
+    color: lightseagreen;
+    padding-top: 40px;
+}
